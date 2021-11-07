@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace AppLibrary.Services.Interface
+namespace AppLibrary.Services.Interfaces
 {
     interface Interface1
     {
