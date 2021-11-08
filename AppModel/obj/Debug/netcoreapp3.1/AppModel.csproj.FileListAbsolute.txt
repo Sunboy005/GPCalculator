@@ -1,0 +1,10 @@
+C:\Users\hp\source\repos\GradingSystem\AppModel\bin\Debug\netcoreapp3.1\AppModel.deps.json
+C:\Users\hp\source\repos\GradingSystem\AppModel\bin\Debug\netcoreapp3.1\AppModel.dll
+C:\Users\hp\source\repos\GradingSystem\AppModel\bin\Debug\netcoreapp3.1\AppModel.pdb
+C:\Users\hp\source\repos\GradingSystem\AppModel\obj\Debug\netcoreapp3.1\AppModel.csproj.AssemblyReference.cache
+C:\Users\hp\source\repos\GradingSystem\AppModel\obj\Debug\netcoreapp3.1\AppModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\source\repos\GradingSystem\AppModel\obj\Debug\netcoreapp3.1\AppModel.AssemblyInfoInputs.cache
+C:\Users\hp\source\repos\GradingSystem\AppModel\obj\Debug\netcoreapp3.1\AppModel.AssemblyInfo.cs
+C:\Users\hp\source\repos\GradingSystem\AppModel\obj\Debug\netcoreapp3.1\AppModel.csproj.CoreCompileInputs.cache
+C:\Users\hp\source\repos\GradingSystem\AppModel\obj\Debug\netcoreapp3.1\AppModel.dll
+C:\Users\hp\source\repos\GradingSystem\AppModel\obj\Debug\netcoreapp3.1\AppModel.pdb

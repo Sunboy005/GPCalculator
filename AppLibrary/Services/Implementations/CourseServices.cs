@@ -1,18 +1,16 @@
 ﻿using AppLibrary.Services.DTOs;
+using AppLibrary.Services.Interfaces;
 using AppModel.Models;
 using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Threading;
 
 namespace AppLibrary.Services.Implementations
 {
-    public class CourseServices
+    public class CourseServices : ICourse
     {
-        public bool Save(CoursesToAdd  model)
+        public bool Save(CoursesToAdd model)
         {
-            var id=  Guid.NewGuid().ToString();
-            var course = new Course(id, model.CourseName, model.CourseCode, model.CourseUnit);
+            var id = Guid.NewGuid().ToString();
+            var course = new Course(id, model.CourseName, model.CourseUnit, model.CourseScore, model.GradePoint);
 
             return false;
         }
@@ -20,8 +18,7 @@ namespace AppLibrary.Services.Implementations
         public void ListCourses()
         {
             Console.WriteLine("Fetching Courses...");   // all users will be fetched
-            Thread.Sleep(1000);
-
+                                                        // Thread.Sleep(1000);
         }
 
     }

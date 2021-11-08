@@ -6,7 +6,16 @@ namespace AppClient
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+
+
+            Console.ReadKey();
+            InputRecord newStudent = new InputRecord();
+            newStudent.GetData();
+            
+
+
+
         }
     }
+
 }

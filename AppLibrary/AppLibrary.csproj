@@ -5,9 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Services\DTOs\" />
-    <Folder Include="Services\Implementation\" />
-    <Folder Include="Services\Interface\" />
+    <ProjectReference Include="..\AppData\AppData.csproj" />
+    <ProjectReference Include="..\AppModel\AppModel.csproj" />
   </ItemGroup>
 
 </Project>

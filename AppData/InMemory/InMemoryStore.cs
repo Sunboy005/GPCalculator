@@ -7,8 +7,8 @@ namespace AppData.InMemory
 {
     interface InMemoryStore
     {
-        public static List<Courses> Courses { get; set; } = new List<Courses>();
+        public static List<Course> Courses { get; set; } = new List<Course>();
 
-       // public static List<Grades> IdCards { get; set; } = new List<Grade>();
+     
     }
 }

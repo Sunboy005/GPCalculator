@@ -1,0 +1,13 @@
+C:\Users\hp\source\repos\GradingSystem\AppData\bin\Debug\netcoreapp3.1\AppData.deps.json
+C:\Users\hp\source\repos\GradingSystem\AppData\bin\Debug\netcoreapp3.1\AppData.dll
+C:\Users\hp\source\repos\GradingSystem\AppData\bin\Debug\netcoreapp3.1\AppData.pdb
+C:\Users\hp\source\repos\GradingSystem\AppData\bin\Debug\netcoreapp3.1\AppModel.dll
+C:\Users\hp\source\repos\GradingSystem\AppData\bin\Debug\netcoreapp3.1\AppModel.pdb
+C:\Users\hp\source\repos\GradingSystem\AppData\obj\Debug\netcoreapp3.1\AppData.csproj.AssemblyReference.cache
+C:\Users\hp\source\repos\GradingSystem\AppData\obj\Debug\netcoreapp3.1\AppData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\source\repos\GradingSystem\AppData\obj\Debug\netcoreapp3.1\AppData.AssemblyInfoInputs.cache
+C:\Users\hp\source\repos\GradingSystem\AppData\obj\Debug\netcoreapp3.1\AppData.AssemblyInfo.cs
+C:\Users\hp\source\repos\GradingSystem\AppData\obj\Debug\netcoreapp3.1\AppData.csproj.CoreCompileInputs.cache
+C:\Users\hp\source\repos\GradingSystem\AppData\obj\Debug\netcoreapp3.1\AppData.csproj.CopyComplete
+C:\Users\hp\source\repos\GradingSystem\AppData\obj\Debug\netcoreapp3.1\AppData.dll
+C:\Users\hp\source\repos\GradingSystem\AppData\obj\Debug\netcoreapp3.1\AppData.pdb

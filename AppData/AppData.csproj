@@ -1,7 +1,16 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AppModel\AppModel.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="InMemory\Implementation\" />
+    <Folder Include="InMemory\Interface\" />
+  </ItemGroup>
 
 </Project>

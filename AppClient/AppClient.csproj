@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="DTOs\" />
+    <ProjectReference Include="..\AppLibrary\AppLibrary.csproj" />
   </ItemGroup>
 
 </Project>
