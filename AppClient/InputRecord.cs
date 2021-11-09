@@ -1,4 +1,6 @@
 ﻿using AppClient.DTOs;
+using AppModel.Models;
+using Commons;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -7,10 +9,11 @@ using System.Threading;
 namespace AppClient
 {
     public class InputRecord
+
     {
         List<AddDTO> recordKeeper = new List<AddDTO>();
 
-        public void GetData()
+        public List<AddDTO> GetData()
         {
             Console.WriteLine("Welcome to GPA Calculator");
             Console.WriteLine("Please, Press any key to continue.");
@@ -74,44 +77,30 @@ namespace AppClient
                     Console.Clear();
                 }
             }
+            // GetGrade()
+           
             Console.WriteLine("Please Wait for your GPA ... ");
             Thread.Sleep(2000);
-            Console.ReadKey();
+            return recordKeeper;
         }
 
+        public List<Course> NewCourseConstruct(List<AddDTO> newRecord)
+        {
+            var newCourseList = new List<Course>();
+            foreach (var item in newCourseList)
+            {
+                var course = new Course();
+                course.CourseName = item.CourseName;
+                course.CourseUnit = item.CourseUnit;
+                course.CourseScore = item.CourseScore;
+                course.Grade = Utils.GetGrade(item.CourseScore);
+                course.GradePoint = Utils.GetGradeUnit(Utils.GetGrade(item.CourseScore));
+                course.QualityPoint =item.CourseUnit * Utils.GetGradeUnit(Utils.GetGrade(item.CourseScore));
+                newCourseList.Add(course);
 
-
-
-
-
-
-
-
-
-
-
-        
-
-            //public void DisplayAccountDetails()
-            //{
-            //    var courses =recordKeeper.;
-
-            //    if (courses.Equals(null))
-            //        Console.WriteLine("No record was found for users!");
-            //    else
-            //    {
-            //        Console.WriteLine("|Courses & Code |  Course Unit  | Score|");
-            //        foreach (var user in courses)
-            //            {
-            //            Console.WriteLine("|Courses & Code |  Course Unit  | Score|");
-            //            Console.WriteLine($"| {courses.CourseName}         |{courses.CourseUnit}              |");
-
-            //            //Console.WriteLine($"Doors: { user.OpenDoor(null) }");
-            //            //Console.WriteLine("--------------------------------------------------");
-            //            Console.WriteLine("\n");
-            //        }
-            //    }
-            //}
+            }
+            return newCourseList;
+        }
 
     }
 }

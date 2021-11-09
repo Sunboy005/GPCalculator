@@ -10,7 +10,7 @@ namespace AppLibrary.Services.Implementations
         public bool Save(CoursesToAdd model)
         {
             var id = Guid.NewGuid().ToString();
-            var course = new Course(id, model.CourseName, model.CourseUnit, model.CourseScore, model.GradePoint);
+            var course = new Course();
 
             return false;
         }

@@ -10,6 +10,6 @@ C:\Users\hp\source\repos\GradingSystem\AppLibrary\obj\Debug\netcoreapp3.1\AppLib
 C:\Users\hp\source\repos\GradingSystem\AppLibrary\obj\Debug\netcoreapp3.1\AppLibrary.AssemblyInfoInputs.cache
 C:\Users\hp\source\repos\GradingSystem\AppLibrary\obj\Debug\netcoreapp3.1\AppLibrary.AssemblyInfo.cs
 C:\Users\hp\source\repos\GradingSystem\AppLibrary\obj\Debug\netcoreapp3.1\AppLibrary.csproj.CoreCompileInputs.cache
-C:\Users\hp\source\repos\GradingSystem\AppLibrary\obj\Debug\netcoreapp3.1\AppLibrary.csproj.CopyComplete
 C:\Users\hp\source\repos\GradingSystem\AppLibrary\obj\Debug\netcoreapp3.1\AppLibrary.dll
 C:\Users\hp\source\repos\GradingSystem\AppLibrary\obj\Debug\netcoreapp3.1\AppLibrary.pdb
+C:\Users\hp\source\repos\GradingSystem\AppLibrary\obj\Debug\netcoreapp3.1\AppLibrary.csproj.CopyComplete

@@ -9,8 +9,8 @@ namespace AppClient
 
 
             Console.ReadKey();
-            InputRecord newStudent = new InputRecord();
-            newStudent.GetData();
+            Display newStudent = new Display();
+            newStudent.GetResult();
             
 
 

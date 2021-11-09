@@ -1,12 +1,14 @@
-﻿using System;
+﻿using AppLibrary.Services.Implementations;
+using AppModel.Models;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace AppLibrary.Services.Interfaces
 {
-    interface ICalculations : ICourse
+    interface ICalculations
     {
 
-        public string GetGrade(int score, int courseUnit);
+        public double GPACalc(List<Course> newModel);
     }
 }

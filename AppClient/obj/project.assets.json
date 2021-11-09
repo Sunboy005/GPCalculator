@@ -38,6 +38,16 @@
         "runtime": {
           "bin/placeholder/AppModel.dll": {}
         }
+      },
+      "Commons/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Commons.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Commons.dll": {}
+        }
       }
     }
   },
@@ -56,12 +66,18 @@
       "type": "project",
       "path": "../AppModel/AppModel.csproj",
       "msbuildProject": "../AppModel/AppModel.csproj"
+    },
+    "Commons/1.0.0": {
+      "type": "project",
+      "path": "../Commons/Commons.csproj",
+      "msbuildProject": "../Commons/Commons.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "AppLibrary >= 1.0.0",
-      "AppModel >= 1.0.0"
+      "AppModel >= 1.0.0",
+      "Commons >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -96,6 +112,9 @@
             },
             "C:\\Users\\hp\\source\\repos\\GradingSystem\\AppModel\\AppModel.csproj": {
               "projectPath": "C:\\Users\\hp\\source\\repos\\GradingSystem\\AppModel\\AppModel.csproj"
+            },
+            "C:\\Users\\hp\\source\\repos\\GradingSystem\\Commons\\Commons.csproj": {
+              "projectPath": "C:\\Users\\hp\\source\\repos\\GradingSystem\\Commons\\Commons.csproj"
             }
           }
         }
