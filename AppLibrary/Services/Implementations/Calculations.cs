@@ -17,8 +17,7 @@ namespace AppLibrary.Services.Implementations
                 TotalQP += item.QualityPoint;
                 TotalGP += item.GradePoint;
             }
-            var GP = TotalQP / TotalGP;
-            return GP;
+            return TotalQP / TotalGP; ;
         }
 
     }

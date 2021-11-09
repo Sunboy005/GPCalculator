@@ -18,4 +18,5 @@ C:\Users\hp\source\repos\GradingSystem\AppClient\bin\Debug\netcoreapp3.1\AppMode
 C:\Users\hp\source\repos\GradingSystem\AppClient\obj\Debug\netcoreapp3.1\AppClient.dll
 C:\Users\hp\source\repos\GradingSystem\AppClient\obj\Debug\netcoreapp3.1\AppClient.pdb
 C:\Users\hp\source\repos\GradingSystem\AppClient\obj\Debug\netcoreapp3.1\AppClient.genruntimeconfig.cache
-C:\Users\hp\source\repos\GradingSystem\AppClient\obj\Debug\netcoreapp3.1\AppClient.csproj.CopyComplete
+C:\Users\hp\source\repos\GradingSystem\AppClient\bin\Debug\netcoreapp3.1\Commons.dll
+C:\Users\hp\source\repos\GradingSystem\AppClient\bin\Debug\netcoreapp3.1\Commons.pdb

@@ -87,7 +87,7 @@ namespace AppClient
         public List<Course> NewCourseConstruct(List<AddDTO> newRecord)
         {
             var newCourseList = new List<Course>();
-            foreach (var item in newCourseList)
+            foreach (var item in newRecord)
             {
                 var course = new Course();
                 course.CourseName = item.CourseName;
