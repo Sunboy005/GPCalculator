@@ -10,4 +10,4 @@ namespace AppClient.DTOs
         public int CourseUnit { get; set; } 
         public int CourseScore { get; set; } 
     }
-}
+} 

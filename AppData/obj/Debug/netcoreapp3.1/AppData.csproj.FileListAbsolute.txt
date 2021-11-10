@@ -8,6 +8,5 @@ C:\Users\hp\source\repos\GradingSystem\AppData\obj\Debug\netcoreapp3.1\AppData.G
 C:\Users\hp\source\repos\GradingSystem\AppData\obj\Debug\netcoreapp3.1\AppData.AssemblyInfoInputs.cache
 C:\Users\hp\source\repos\GradingSystem\AppData\obj\Debug\netcoreapp3.1\AppData.AssemblyInfo.cs
 C:\Users\hp\source\repos\GradingSystem\AppData\obj\Debug\netcoreapp3.1\AppData.csproj.CoreCompileInputs.cache
-C:\Users\hp\source\repos\GradingSystem\AppData\obj\Debug\netcoreapp3.1\AppData.csproj.CopyComplete
 C:\Users\hp\source\repos\GradingSystem\AppData\obj\Debug\netcoreapp3.1\AppData.dll
 C:\Users\hp\source\repos\GradingSystem\AppData\obj\Debug\netcoreapp3.1\AppData.pdb

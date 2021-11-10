@@ -9,8 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="InMemory\Implementation\" />
-    <Folder Include="InMemory\Interface\" />
+    <Folder Include="FileMemory\" />
   </ItemGroup>
 
 </Project>

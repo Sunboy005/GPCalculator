@@ -1,11 +1,9 @@
 ﻿using AppLibrary.Services.Implementations;
 using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace AppClient
 {
-    class Display
+    internal class Display
     {
         public void GetResult()
         {
@@ -23,7 +21,6 @@ namespace AppClient
                 Console.WriteLine("-|-----------------|-----------------|-----------------|----------------------|");
             }
             Console.WriteLine($"Your GPA is {GPAVal.ToString("0.00")}");
-
         }
     }
 }

@@ -10,6 +10,7 @@ namespace AppModel.Models
        
         //Properties Related to Courses Class
         public char Grade{ get; set; }
+        public string Id { get; set; }
         public string CourseName { get; set; }
         public int QualityPoint { get; set; }
         public int CourseUnit { get; set; }
